@@ -1,5 +1,5 @@
 '''
-OOP exercise involving creating a language analysis utility tool that can perform analysis on a
+OOP exercise involving the creation of a language analysis utility tool that can perform analysis on a
 given piece of text, a class containing 3 methods:
 1. Takes in text, makes it lower case, and removes any periods, exclamation marks, commas, and question marks.
 2. Return dictionary containing all unique words in text along with number of their occurences.
