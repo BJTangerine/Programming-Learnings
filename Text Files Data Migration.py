@@ -43,12 +43,12 @@ def cleanFiles(currentMem,exMem):
     with open(currentMem,'r+') as members_register: 
             with open(exMem,'a+') as inactive_mem_register:
 
-                # get the data
+                # retrieves data
                 members_register.seek(0)
 
                 lines = members_register.readlines()
 
-                #removes header
+                # removes header
                 header = lines[0]
                 lines.pop(0)
 
@@ -57,7 +57,7 @@ def cleanFiles(currentMem,exMem):
                 inactive = [line for line in lines if ('no' in line)]
 
 
-                # go to the beginning of the members register
+                # go to beginning of members register
                 members_register.seek(0) 
                 
                 # write-in header again
