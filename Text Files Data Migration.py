@@ -3,6 +3,7 @@
 # and the register of inactive members contains the inactive members only.
 
 
+
 # this code section was already provided for generating the text files for the exercise.
 # skip below to def of function cleanFiles for developed code.
 from random import randint as rnd
@@ -31,6 +32,10 @@ def genFiles(current,old):
 
 genFiles(memReg,exReg)
 # end of file generation for text files exercise.
+
+
+
+
 
 def cleanFiles(currentMem,exMem):
     '''
